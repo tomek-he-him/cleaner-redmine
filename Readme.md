@@ -1,11 +1,13 @@
+[![Install from stylebot][shield]][social]
+
+
+
 Cleaner Redmine
 ===============
 
 **Make [Redmine][] digestible.**
 
 [![Screenshot](Screenshot.png)][social]
-
-[![Install from stylebot][shield]][social]
 
 The default look of [Redmine][] makes it difficult to find important info. This set of CSS overrides improves the ugliest bits of Redmine.
 

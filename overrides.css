@@ -1,0 +1,234 @@
+#account > ul > li:last-child a {
+    margin-right: 0;
+}
+
+#content {
+    background: white;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    padding: 2rem 3%;
+}
+
+#header {
+    background: none;
+    color: inherit;
+    font-weight: normal;
+    padding: 1rem 0 2rem;
+}
+
+#header h1 a.ancestor {
+    color: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+}
+
+#main {
+    background: none;
+    margin-top: 0;
+}
+
+#main-menu {
+    bottom: -1px;
+    left: 0;
+    z-index: 10;
+}
+
+#main-menu li {
+    margin: 0;
+}
+
+#main-menu li a {
+    background: none;
+    color: inherit;
+    font-size: 0.8rem;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+}
+
+#main-menu li a.selected {
+    background: white;
+    border: solid lightgray;
+    border-width: 1px 1px 0;
+    margin: -1px -1px 0;
+}
+
+#main-menu li:first-child a:not(.selected) {
+    padding-left: 0;
+}
+
+#project_quick_jump_box, #project_quick_jump_box_chzn {
+    display: none;
+}
+
+#quick-search a {
+    color: inherit;
+}
+
+#top-menu #loggedas {
+    color: inherit;
+}
+
+#top-menu a {
+    color: inherit;
+    font-weight: inherit;
+    margin-right: 1.5em;
+}
+
+#top-menu, #quick-search {
+    background: none;
+    color: #aaa;
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    padding-left: 0;
+    padding-right: 0;
+    text-transform: uppercase;
+    word-spacing: 0.10em;
+}
+
+#wrapper3 {
+    padding: 1rem 1vw;
+}
+
+.icon-projects {
+    background: none;
+}
+
+.icon-projects::before {
+    content: "\2605\00A0";
+}
+
+.issue .subject div div {
+    padding-left: 0;
+}
+
+.issue.details {
+    background: none;
+    border: none;
+    border-bottom: lightgray 2px solid;
+    margin: 0 0 4rem;
+    padding: 0 0 4rem;
+}
+
+.issue.details > div {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.journal {
+    border-top: lightgray solid 1px;
+    padding: 2rem 0;
+}
+
+.journal h4 {
+    color: lightgray;
+    font-size: 0;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    margin-bottom: 2.8rem;
+    margin-top: -2rem;
+    text-transform: uppercase;
+    word-spacing: 0.05em;
+}
+
+.journal h4 a {
+    color: inherit;
+    float: right;
+    font-size: 0.8rem;
+    margin-left: 1em;
+}
+
+.journal h4 a.user {
+    float: left;
+    margin-left: 0;
+}
+
+.journal h4 a:not(.user):not(.journal-link)::after {
+    content: " ago";
+}
+
+a.icon.icon-projects {
+    padding-left: 0;
+}
+
+a.root {
+    color: inherit;
+}
+
+body {
+    color: #444;
+}
+
+body, #wrapper {
+    background: #f5f5f5;
+}
+
+body, h1, h2, h3, h4 {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+html {
+    font-size: 12px;
+}
+
+table.list > tbody > tr > td {
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+table.list:not(.changeset) > tbody > tr > td {
+    padding-left: 0.5em;
+}
+
+table.list, table.list > tbody > tr > td {
+    border-left: none;
+    border-right: none;
+}
+
+.issue.details hr {
+    border: none;
+    margin-bottom: 3rem;
+    display: block;
+    height: 0;
+}
+
+.controller-issues.action-show .issue.details .subject h3 {
+    font-size: 2.4em;
+    font-weight: normal;
+    margin-bottom: 1em;
+}
+
+.controller-issues.action-index .issues.list tr:not(.parent) td.subject {
+    font-weight: bold;
+}
+
+.controller-issues.action-show .issues.list a:not(.closed) {
+    color: #169;
+}
+
+.controller-issues.action-show #content > h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 1rem;
+    color: lightgray;
+}
+
+.issue.details > .subject a.parent {
+    color: inherit;
+}
+
+.issue.details > .subject .parent::before {
+    content: "\25B4\2002";
+}
+
+code {
+    background: rgba(0, 0, 0, 0.08);
+    padding: 0 0.3em;
+}
+

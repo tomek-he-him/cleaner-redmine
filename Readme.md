@@ -33,7 +33,7 @@ The least annoying thing I’ve found is [stylebot][]. You can [install this sty
 
 [![Install from stylebot][shield]][social]
 
-[stylebot]:  https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha
+[stylebot]:  https://github.com/ankit/stylebot
 
 
 
